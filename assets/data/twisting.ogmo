@@ -1,0 +1,253 @@
+{
+  "name": "New Project",
+  "ogmoVersion": "3.4.0",
+  "levelPaths": ["."],
+  "backgroundColor": "#282c34ff",
+  "gridColor": "#3c4049cc",
+  "anglesRadians": false,
+  "directoryDepth": 5,
+  "layerGridDefaultSize": {"x": 8, "y": 8},
+  "levelDefaultSize": {"x": 320, "y": 240},
+  "levelMinSize": {"x": 320, "y": 320},
+  "levelMaxSize": {"x": 320, "y": 320},
+  "levelValues": [],
+  "defaultExportMode": ".json",
+  "compactExport": false,
+  "externalScript": "",
+  "playCommand": "",
+  "entityTags": [],
+  "layers": [
+    {
+      "definition": "tile",
+      "name": "stage",
+      "gridSize": {"x": 16, "y": 16},
+      "exportID": "47371492",
+      "exportMode": 0,
+      "arrayMode": 0,
+      "defaultTileset": "tiles"
+    },
+    {
+      "definition": "entity",
+      "name": "entities",
+      "gridSize": {"x": 8, "y": 8},
+      "exportID": "48524266",
+      "requiredTags": [],
+      "excludedTags": []
+    },
+    {
+      "definition": "tile",
+      "name": "halfstage",
+      "gridSize": {"x": 16, "y": 16},
+      "exportID": "49055155",
+      "exportMode": 0,
+      "arrayMode": 0,
+      "defaultTileset": "tiles"
+    },
+    {
+      "definition": "decal",
+      "name": "decals",
+      "gridSize": {"x": 8, "y": 8},
+      "exportID": "50561076",
+      "folder": "../images/decals",
+      "includeImageSequence": true,
+      "scaleable": false,
+      "rotatable": false,
+      "values": []
+    }
+  ],
+  "entities": [
+    {
+      "exportID": "48523698",
+      "name": "door",
+      "limit": -1,
+      "size": {"x": 16, "y": 16},
+      "origin": {"x": 0, "y": 0},
+      "originAnchored": true,
+      "shape": {
+        "label": "Rectangle",
+        "points": [
+          {"x": -1, "y": -1},
+          {"x": 1, "y": -1},
+          {"x": -1, "y": 1},
+          {"x": 1, "y": -1},
+          {"x": -1, "y": 1},
+          {"x": 1, "y": 1}
+        ]
+      },
+      "color": "#969696ff",
+      "tileX": false,
+      "tileY": false,
+      "tileSize": {"x": 16, "y": 16},
+      "resizeableX": true,
+      "resizeableY": true,
+      "rotatable": true,
+      "rotationDegrees": 90,
+      "canFlipX": false,
+      "canFlipY": false,
+      "canSetColor": false,
+      "hasNodes": false,
+      "nodeLimit": 0,
+      "nodeDisplay": 0,
+      "nodeGhost": true,
+      "tags": [],
+      "values": []
+    },
+    {
+      "exportID": "48605188",
+      "name": "player",
+      "limit": -1,
+      "size": {"x": 14, "y": 14},
+      "origin": {"x": 0, "y": 0},
+      "originAnchored": true,
+      "shape": {
+        "label": "Rectangle",
+        "points": [
+          {"x": -1, "y": -1},
+          {"x": 1, "y": -1},
+          {"x": -1, "y": 1},
+          {"x": 1, "y": -1},
+          {"x": -1, "y": 1},
+          {"x": 1, "y": 1}
+        ]
+      },
+      "color": "#ff0000ff",
+      "tileX": false,
+      "tileY": false,
+      "tileSize": {"x": 14, "y": 14},
+      "resizeableX": false,
+      "resizeableY": false,
+      "rotatable": false,
+      "rotationDegrees": 360,
+      "canFlipX": false,
+      "canFlipY": false,
+      "canSetColor": false,
+      "hasNodes": false,
+      "nodeLimit": 0,
+      "nodeDisplay": 0,
+      "nodeGhost": true,
+      "tags": [],
+      "values": [],
+      "texture": "../images/player.png",
+      "textureImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAAXNSR0IArs4c6QAAAIZJREFUKJFjZMAClJUM/yPz7947z4iuhgWbBlOdJjRldf/RDWBE1oSpARWcvlIH18xIrCZ0zUxEqcYCmEmxjYGBgYGTRYuBgeVxA9k20l8jSaH67t1LhrvPplIWqkQlgHfvXjIwMDDAbUPRCNPMwMDAoCyVjaLx7rOpEBpbksNmAFwjlkQOAH7LO28RrP+KAAAAAElFTkSuQmCC"
+    },
+    {
+      "exportID": "49264998",
+      "name": "rotate",
+      "limit": -1,
+      "size": {"x": 16, "y": 16},
+      "origin": {"x": 0, "y": 0},
+      "originAnchored": true,
+      "shape": {
+        "label": "Rectangle",
+        "points": [
+          {"x": -1, "y": -1},
+          {"x": 1, "y": -1},
+          {"x": -1, "y": 1},
+          {"x": 1, "y": -1},
+          {"x": -1, "y": 1},
+          {"x": 1, "y": 1}
+        ]
+      },
+      "color": "#00adffff",
+      "tileX": false,
+      "tileY": false,
+      "tileSize": {"x": 16, "y": 16},
+      "resizeableX": false,
+      "resizeableY": false,
+      "rotatable": false,
+      "rotationDegrees": 360,
+      "canFlipX": false,
+      "canFlipY": false,
+      "canSetColor": false,
+      "hasNodes": false,
+      "nodeLimit": 0,
+      "nodeDisplay": 0,
+      "nodeGhost": true,
+      "tags": [],
+      "values": [],
+      "texture": "../images/powerup.png",
+      "textureImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAALZJREFUOI1jYMAD1hz9/R+fPAMDAwMTPs3P3/4kpJ+BEZvg5E1f4DZLCrPDxUOsWTHUYwjUzHvyX1xEAKeNuX48KHowvNCSJMP48s0HnAaghwtWLyC7BGYjurdg3sEZiOguQXb687c/4QbidAEuANMIcwVOFxACsChmYWBADXn0UCYEyHYBTgOQQ5sYObhz0RMQulfQNcPk8SrCBZANZ0KXwJcKsbkMa4jXzHsCdwk+bzEwMDAAAHL5URd3Qab8AAAAAElFTkSuQmCC"
+    },
+    {
+      "exportID": "49791903",
+      "name": "jumpPad",
+      "limit": -1,
+      "size": {"x": 8, "y": 8},
+      "origin": {"x": 0, "y": 0},
+      "originAnchored": true,
+      "shape": {
+        "label": "Rectangle",
+        "points": [
+          {"x": -1, "y": -1},
+          {"x": 1, "y": -1},
+          {"x": -1, "y": 1},
+          {"x": 1, "y": -1},
+          {"x": -1, "y": 1},
+          {"x": 1, "y": 1}
+        ]
+      },
+      "color": "#00ffd6ff",
+      "tileX": false,
+      "tileY": false,
+      "tileSize": {"x": 16, "y": 16},
+      "resizeableX": true,
+      "resizeableY": true,
+      "rotatable": false,
+      "rotationDegrees": 4,
+      "canFlipX": false,
+      "canFlipY": false,
+      "canSetColor": false,
+      "hasNodes": false,
+      "nodeLimit": 0,
+      "nodeDisplay": 0,
+      "nodeGhost": true,
+      "tags": [],
+      "values": [
+        {"name": "direction", "definition": "String", "display": 0, "defaults": "up", "maxLength": 0, "trimWhitespace": true},
+        {"name": "mult", "definition": "Float", "display": 0, "defaults": 1, "bounded": false, "min": 0.5, "max": 100}
+      ]
+    },
+    {
+      "exportID": "50706411",
+      "name": "rotateR",
+      "limit": -1,
+      "size": {"x": 16, "y": 16},
+      "origin": {"x": 0, "y": 0},
+      "originAnchored": true,
+      "shape": {
+        "label": "Rectangle",
+        "points": [
+          {"x": -1, "y": -1},
+          {"x": 1, "y": -1},
+          {"x": -1, "y": 1},
+          {"x": 1, "y": -1},
+          {"x": -1, "y": 1},
+          {"x": 1, "y": 1}
+        ]
+      },
+      "color": "#ff0000ff",
+      "tileX": false,
+      "tileY": false,
+      "tileSize": {"x": 16, "y": 16},
+      "resizeableX": false,
+      "resizeableY": false,
+      "rotatable": false,
+      "rotationDegrees": 360,
+      "canFlipX": false,
+      "canFlipY": false,
+      "canSetColor": false,
+      "hasNodes": false,
+      "nodeLimit": 0,
+      "nodeDisplay": 0,
+      "nodeGhost": true,
+      "tags": [],
+      "values": [],
+      "texture": "../images/powerupR.png",
+      "textureImage": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAALFJREFUOI2dUjEOgzAMvCCqLh26oUh9Ft/gBxn5Ad/gWUgRGwML6kAnW8GJnYobbZ99dwlg4DvPp9UHgMYiHzHW+HCl4j5NfPnpPdcffZ/NZ4UlhPPdderF1zBcOJmFzzi6bV3VBTKXooVUCV2UtsiOGqJUkko/YuSFqgINRCQVqoIa6Ilb4Jq8TLmG2wrUBWna//RYrvxA0ookU98c0pAub2TD+oUlZcXElxBYiWULAH6fb1D1QBPgVAAAAABJRU5ErkJggg=="
+    }
+  ],
+  "tilesets": [
+    {"label": "tiles", "path": "../images/tiles.png", "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAQCAYAAAB3AH1ZAAAAAXNSR0IArs4c6QAAAIVJREFUSInllTEOgDAIRZ/GrQNDt96hF+w1OUcHTqBTjQ42RkyM+icGSB+E8gecKqXMADHGwxwRWWMzA6DWCsDkBQDIOZ/ODSEAkFJCVRm9j/c6P1PrBvDq/QDbBXsEwCs3QPtWjwF49W8AEfn5BMzsAxNorna19hY3VNWdKbXr2LsRDXwB9BQgeYNqjTEAAAAASUVORK5CYII=", "tileWidth": 16, "tileHeight": 16, "tileSeparationX": 0, "tileSeparationY": 0, "tileMarginX": 0, "tileMarginY": 0},
+    {"label": "halftiles", "path": "../images/halftiles.png", "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAQCAYAAACBSfjBAAAAAXNSR0IArs4c6QAAAYhJREFUWIXVmD2SgkAQhZstz6KZdzDB2MBYE6vM9wxWeQSqSDA2MNbEO5jpZdhgd7C36Z8Z6V3wi4RHSc/j0dOawZsxGU9r7vxiuWqdOx0Ppka5P25ZSj2jlIv7RDIuMM9nAABwvlyTNOk+sUYO3kDOuKKsAODbEJqkeT4TjeI0nE78XbFGfujl9ws1ryirxjzKdrP+dYzN0DTMYrlqve5W8gefQABgTQtJuj9umbVIiZ901QDP1xx/psZzvIWBYSHcZkCvK8qKTZimYfPw/WIYtIE0XdKuKqUw9C9Nw3DGWT0wacu2wIXSG2ta6ndjYkxK1VJqdNtEaCH4WNO8oAvGx5rWFfdXuCgrsYdomoQ1xux3n815zRhJ6zrGuBgoJUpL2mQ8ra3iuDHmLwlmUiO1Ol0TGArgkqZpFtoY40VvY0yXfhaTQoD4MeZVuowxbpsIXRxOjaZpUHNPx4P4K8KD7WbdMu9feiDmfLm2nmiMJsGNG54mSg+l1z8TtP70au+y5jYvUkecL8nSBBOt8Ch6AAAAAElFTkSuQmCC", "tileWidth": 16, "tileHeight": 16, "tileSeparationX": 0, "tileSeparationY": 0, "tileMarginX": 0, "tileMarginY": 0}
+  ]
+}
